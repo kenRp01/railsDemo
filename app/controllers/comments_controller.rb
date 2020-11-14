@@ -9,8 +9,8 @@ class CommentsController < ApplicationController
         comment: comment,
         error_messages: comemnt.errors.full_messages
       }
+    end
   end
-end
 
   def destroy
   end
